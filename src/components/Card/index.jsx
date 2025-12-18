@@ -1,20 +1,26 @@
-
+import { useEffect, useRef } from "react";
 import "./card.scss";
-import React, { useEffect, useRef } from "react";
+
 function Card({ image, title, description }) {
   const cardRef = useRef(null);
 
   useEffect(() => {
+    const element = cardRef.current;
+    if (!element) return;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("show");
+          observer.unobserve(entry.target); 
         }
       },
-      { threshold: 0.2 }
+      {
+        threshold: 0.2,
+      }
     );
 
-    if (cardRef.current) observer.observe(cardRef.current);
+    observer.observe(element);
 
     return () => observer.disconnect();
   }, []);
@@ -22,7 +28,7 @@ function Card({ image, title, description }) {
   return (
     <div className="card" ref={cardRef}>
       <div className="card-image">
-        <img src={image} alt={title} />
+        <img src={image} alt={title} loading="lazy" />
       </div>
 
       <div className="card-content">
