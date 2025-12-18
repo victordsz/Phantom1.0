@@ -19,6 +19,7 @@
   display: flex;
   align-items: center;
   gap: 2rem;
+  // border:solid red;
 
   ul {
     display: flex;
@@ -49,7 +50,6 @@
   }
 }
 
-/* BOTÃO */
 .btn-primary {
   padding: 10px 24px;
   border-radius: 30px;
