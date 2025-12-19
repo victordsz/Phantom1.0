@@ -25,13 +25,13 @@ function App() {
 
   <Card
     image={car2}
-    title="Phantom GT"
+    title="Interior"
     description="Luxury, power and advanced technology."
   />
 
   <Card
     image={car3}
-    title="Phantom RS"
+    title="Engine"
     description="Speed ​​and precision in every detail.."
   />
 </section>
