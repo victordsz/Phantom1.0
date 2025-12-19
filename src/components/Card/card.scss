@@ -2,13 +2,11 @@
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 2rem;
-
+  gap: 1rem;
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem 2rem;
-
-  align-items: stretch;
+  align-items: stretch; 
 }
 
 

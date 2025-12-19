@@ -19,7 +19,7 @@ function Header() {
         <button className="btn-primary">Explore</button>
       </nav>
 
-      {/* botão hamburguer */}
+     
       <button
         className="menu-btn"
         onClick={() => setMenuOpen(!menuOpen)}
