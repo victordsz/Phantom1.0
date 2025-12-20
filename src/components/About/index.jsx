@@ -21,7 +21,7 @@ export default function About() {
           </p>
 
           <a href="#projects" className="about-cta">
-            Ver projetos
+            Projects
           </a>
         </div>
 
