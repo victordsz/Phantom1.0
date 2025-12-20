@@ -3,6 +3,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
+import About from "./components/About";
 import "./index.css";
 
 import car1 from "./assets/phantomcard.webp";
@@ -16,6 +17,7 @@ function App() {
     <>
       <Header />
       <Hero />
+      <About />
       <section className="card-container">
   <Card
     image={car1}
