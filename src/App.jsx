@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
 import About from "./components/About";
+import Footer from "./components/Footer";
 import "./index.css";
 
 import car1 from "./assets/phantomcard.webp";
@@ -38,6 +39,7 @@ function App() {
   />
 </section>
 
+ <Footer />
     </>
   );
 }
