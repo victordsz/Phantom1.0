@@ -1,0 +1,153 @@
+.login {
+  min-height: 100vh;
+  background: radial-gradient(
+    circle at top,
+    #0e0e0e 0%,
+    #050505 60%,
+    #020202 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 6vw;
+  color: #eaeaea;
+  font-family: "Inter", sans-serif;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 1100px;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(14px);
+  border-radius: 14px;
+  overflow: hidden;
+  animation: fadeIn 0.9s ease forwards;
+}
+
+
+.login-brand {
+  padding: 4rem;
+  background: linear-gradient(
+    135deg,
+    rgba(191, 167, 111, 0.08),
+    rgba(255, 255, 255, 0.01)
+  );
+
+  .login-eyebrow {
+    letter-spacing: 0.35em;
+    font-size: 0.75rem;
+    color: #bfa76f;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 1rem 0;
+  }
+
+  p {
+    max-width: 420px;
+    line-height: 1.7;
+    color: #bcbcbc;
+  }
+}
+
+.login-form {
+  padding: 4rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+
+  h2 {
+    font-size: 1.4rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    label {
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #9f9f9f;
+    }
+
+    input {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 0.7rem 0;
+      color: #fff;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.3s ease;
+
+      &::placeholder {
+        color: #666;
+      }
+
+      &:focus {
+        border-color: #bfa76f;
+      }
+    }
+  }
+
+  button {
+    margin-top: 1.6rem;
+    padding: 0.9rem;
+    border: 1px solid rgba(191, 167, 111, 0.6);
+    background: transparent;
+    color: #bfa76f;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+    &:hover {
+      background: #bfa76f;
+      color: #0b0b0b;
+    }
+  }
+
+  .login-footer {
+    margin-top: auto;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    color: #777;
+    text-align: center;
+  }
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 900px) {
+  .login-container {
+    grid-template-columns: 1fr;
+  }
+
+  .login-brand {
+    display: none;
+  }
+}
