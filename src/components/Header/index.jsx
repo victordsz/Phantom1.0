@@ -16,7 +16,7 @@ function Header() {
           <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <button className="btn-primary">Explore</button>
+        <button className="btn-primary">Login</button>
       </nav>
 
      

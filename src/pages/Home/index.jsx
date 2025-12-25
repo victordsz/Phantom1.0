@@ -3,6 +3,7 @@ import Hero from "../../components/Hero";
 import About from "../../components/About";
 import Card from "../../components/Card";
 import Footer from "../../components/Footer";
+import Purchase from "../../components/Purchase";
 
 import car1 from "../../assets/phantomcard.webp";
 import car2 from "../../assets/phantomcard2.webp";
@@ -32,7 +33,7 @@ export default function Home() {
           description="Speed and precision in every detail."
         />
       </section>
-
+      <Purchase />
       <Footer />
     </>
   );

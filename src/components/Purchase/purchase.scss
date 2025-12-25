@@ -1,0 +1,131 @@
+.purchase {
+  padding: 8rem 6vw;
+  background: radial-gradient(circle at top, #0f0f0f, #000);
+  color: #eaeaea;
+  font-family: "Inter", sans-serif;
+}
+
+
+.purchase-header {
+  max-width: 600px;
+  margin-bottom: 5rem;
+
+  .eyebrow {
+    letter-spacing: 0.4em;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #bfa76f;
+  }
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.8rem;
+    margin: 1rem 0;
+  }
+
+  p {
+    color: #bcbcbc;
+    line-height: 1.8;
+  }
+}
+
+
+.purchase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
+}
+
+
+.purchase-card {
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  overflow: hidden;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8);
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+  animation: cardFade 1s ease forwards;
+
+  &:hover {
+    transform: translateY(-14px);
+    box-shadow: 0 50px 120px rgba(0, 0, 0, 0.9);
+  }
+}
+
+
+.image-wrapper {
+  height: 260px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s ease;
+  }
+
+  .purchase-card:hover & img {
+    transform: scale(1.08);
+  }
+}
+
+.card-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    color: #bfa76f;
+    letter-spacing: 0.15em;
+  }
+
+  button {
+    margin-top: auto;
+    padding: 0.9rem;
+    background: transparent;
+    border: 1px solid rgba(191, 167, 111, 0.7);
+    color: #bfa76f;
+    letter-spacing: 0.35em;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+    &:hover {
+      background: #bfa76f;
+      color: #0a0a0a;
+      box-shadow: 0 0 25px rgba(191, 167, 111, 0.4);
+    }
+  }
+}
+
+
+@keyframes cardFade {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .purchase {
+    padding: 5rem 6vw;
+  }
+
+  .purchase-header h2 {
+    font-size: 2.2rem;
+  }
+}

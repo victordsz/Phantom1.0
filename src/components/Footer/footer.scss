@@ -1,9 +1,11 @@
+
+
 .footer {
   padding: 4.5rem 6vw 3rem;
   background: linear-gradient(180deg, #050505 0%, #020202 100%);
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   color: #cfcfcf;
-  font-family: "Inter", sans-serif;
+  font-family: 'poppins', sans-serif;
   position: relative;
 
   &::before {
@@ -34,7 +36,7 @@
  
   .footer-brand {
     h3 {
-      font-family: "Playfair Display", serif;
+      font-family: 'poppins', sans-serif;
       font-size: 1.6rem;
       font-weight: 500;
       letter-spacing: 0.2em;
