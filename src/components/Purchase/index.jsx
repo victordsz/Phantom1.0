@@ -31,10 +31,9 @@ export default function Purchase() {
     <section className="purchase">
       <header className="purchase-header">
         <span className="eyebrow">Exclusive Collection</span>
-        <h2>Escolha sua experiência</h2>
+        <h2>Choose your experience.</h2>
         <p>
-          Produtos desenvolvidos com design premium, materiais selecionados e
-          acabamento de alto padrão.
+          Products developed with premium design, selected materials and high-standard finish.
         </p>
       </header>
 
@@ -48,7 +47,7 @@ export default function Purchase() {
             <div className="card-content">
               <h3>{product.title}</h3>
               <span className="price">{product.price}</span>
-              <button>Comprar agora</button>
+              <button>Buy now</button>
             </div>
           </article>
         ))}
