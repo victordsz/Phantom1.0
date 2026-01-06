@@ -1,16 +1,136 @@
-# React + Vite
+# Phantom
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Sobre o projeto
 
-Currently, two official plugins are available:
+**Phantom** é um projeto pessoal de front-end inspirado no site oficial da **Rolls-Royce**. A proposta é explorar conceitos de **elegância, sofisticação e minimalismo**, aplicados a uma interface moderna e imersiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O foco principal do projeto está no desenvolvimento visual e estrutural, utilizando **SCSS avançado** para criar animações suaves, efeitos de profundidade, tipografia refinada e uma experiência premium.
 
-## React Compiler
+Este projeto foi desenvolvido como parte do meu processo de evolução como **desenvolvedor front-end**, unindo estética, organização de código e boas práticas.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React** – Criação de componentes reutilizáveis e organização da interface
+* **JavaScript (ES6+)** – Lógica e interatividade
+* **SCSS (Sass)** – Estilização avançada, modular e elegante
+* **Vite** – Ambiente de desenvolvimento rápido e moderno
+
+---
+
+## 🎨 Conceitos aplicados
+
+* Design inspirado em marcas de luxo
+* UI minimalista e elegante
+* Animações sutis e fluidas
+* Uso de gradientes, blur e efeitos de profundidade
+* Organização de estilos com SCSS modular
+* Componentização com React
+
+---
+
+## 🖼️ Preview do projeto
+
+> *Os prints abaixo demonstram a identidade visual, os detalhes de UI e o cuidado com a experiência do usuário.*
+
+![Home – Phantom](./src/assets/home.png)
+![Menu / Navegação](./src/assets/navegação.png)
+![Seção de Destaque](./src/assets/destaques.png)
+
+> 💡 **Dica:** substitua os caminhos acima pelos prints reais do seu projeto.
+
+---
+
+## 📂 Estrutura do projeto
+
+```bash
+phantom/
+├── src/
+│   ├── assets/        # Imagens e recursos visuais
+│   ├── components/    # Componentes reutilizáveis
+│   ├── pages/         # Páginas da aplicação
+│   ├── styles/        # Estilos globais e variáveis SCSS
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Como executar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/phantom.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd phantom
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute o projeto:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Objetivo do projeto
+
+* Aprimorar habilidades em **front-end** com foco em UI de alto padrão
+* Evoluir no uso de **React e SCSS** em projetos reais
+* Demonstrar atenção a **detalhes visuais, animações e organização de código**
+* Criar um projeto sólido para **portfólio profissional**
+
+---
+
+## 👔 Destaque para recrutadores
+
+Este projeto demonstra minha capacidade de:
+
+* Traduzir **referências visuais premium** em código
+* Criar interfaces **elegantes, responsivas e escaláveis**
+* Trabalhar com **componentização, organização de pastas e boas práticas**
+* Utilizar **SCSS avançado** para manter estilos reutilizáveis e bem estruturados
+* Pensar na **experiência do usuário** em cada detalhe visual
+
+O *Phantom* reflete meu compromisso com qualidade, estética e evolução constante como desenvolvedor front-end.
+
+---
+
+## 🧠 Aprendizados
+
+* Estruturação de projetos React
+* Estilização avançada com SCSS
+* Criação de layouts inspirados em marcas premium
+* Organização de código e componentes
+
+---
+
+## 📌 Observação
+
+Este projeto **não possui vínculo oficial com a marca Rolls-Royce**. Trata-se apenas de um estudo de design e desenvolvimento front-end.
+
+---
+
+## 👤 Autor
+
+**Victor de Souza da Silva**
+Desenvolvedor Front-end
+Projeto pessoal para estudo e portfólio
+
+---
+
+✨ *Phantom — Elegância transformada em código.*
