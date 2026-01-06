@@ -34,9 +34,9 @@ Este projeto foi desenvolvido como parte do meu processo de evolução como **de
 
 > *Os prints abaixo demonstram a identidade visual, os detalhes de UI e o cuidado com a experiência do usuário.*
 
-![Home – Phantom](./public/home.png)
+![Home – Phantom](./public/home2.png)
 ![Menu / Navegação](./public/navegação.png)
-![Seção de Destaque](./public/destaques.png)
+![Seção de Destaque](./public/destaques2.png)
 
 > 💡 **Dica:** substitua os caminhos acima pelos prints reais do seu projeto.
 
