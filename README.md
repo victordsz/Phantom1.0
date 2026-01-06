@@ -1,4 +1,4 @@
-# Phantom
+  # Phantom
 
 ## 📌 Sobre o projeto
 
@@ -36,7 +36,7 @@ Este projeto foi desenvolvido como parte do meu processo de evolução como **de
 
 ![Home – Phantom](./public/home2.png)
 ![Menu / Navegação](./public/navegação.png)
-![Seção de Destaque](./public/destaques2.png)
+![Seção de Destaque](./public/destaque2.png)
 
 > 💡 **Dica:** substitua os caminhos acima pelos prints reais do seu projeto.
 
