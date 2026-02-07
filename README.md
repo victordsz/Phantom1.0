@@ -96,7 +96,7 @@ npm run dev
 
 ---
 
-## 👔 Destaque para recrutadores
+## 👔 Destaque 
 
 Este projeto demonstra minha capacidade de:
 
